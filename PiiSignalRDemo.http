@@ -1,0 +1,6 @@
+@PiiSignalRDemo_HostAddress = http://localhost:5249
+
+GET {{PiiSignalRDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

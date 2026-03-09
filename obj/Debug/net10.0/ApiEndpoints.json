@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "PiiSignalRDemo.Controllers.PiiController",
+    "Method": "Submit",
+    "RelativePath": "api/pii",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PiiSignalRDemo.Models.PiiRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
