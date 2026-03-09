@@ -9,12 +9,14 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("ClientPolicy", policy =>
     {
-        policy
-            .WithOrigins("
-http://localhost:3000/, https://workflow-client-chi.vercel.app/")
-            .AllowAnyHeader()
-            .AllowAnyMethod()
-            .AllowCredentials();
+       policy
+    .WithOrigins(
+        "http://localhost:3000",
+        "https://workflow-client-chi.vercel.app"
+    )
+    .AllowAnyHeader()
+    .AllowAnyMethod()
+    .AllowCredentials();
     });
 });
 
