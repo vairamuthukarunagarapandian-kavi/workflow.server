@@ -10,7 +10,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("ClientPolicy", policy =>
     {
         policy
-            .WithOrigins("http://localhost:3000, https://agent-69aeebb5b5910e34780a--nimble-pothos-b66120.netlify.app/")
+            .WithOrigins("http://localhost:3000, https://workflow-signalr.netlify.app/")
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
