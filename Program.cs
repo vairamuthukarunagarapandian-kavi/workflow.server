@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>
     {
         policy
             .WithOrigins("
-http://localhost:3000/, https://agent-69af042af8c21158376b2c62--workflow-signalr.netlify.app")
+http://localhost:3000/, https://workflow-client-chi.vercel.app/")
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
