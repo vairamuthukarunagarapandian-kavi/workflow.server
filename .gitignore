@@ -1,0 +1,40 @@
+## Build results
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## Logs
+*.log
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Environment files
+.env
+
+## OS generated
+.DS_Store
+Thumbs.db
+
+## Publish folder
+publish/
+
+## Test results
+TestResults/
